@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Plus Jakarta Sans', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #F5F2EB;
+    color: #233329;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    color: #1B4332;
+  }
+}
+
+/* Solid Flat Clean Cards & Panels (Forest Green + Mustard Yellow + Beige) */
+.card-clean-white {
+  background: #FFFFFF;
+  border: 1px solid #E5DFD5;
+  transition: all 0.25s ease-in-out;
+}
+
+.card-clean-white:hover {
+  border-color: #D48A12;
+  box-shadow: 0 10px 25px -5px rgba(27, 67, 50, 0.08);
+  transform: translateY(-2px);
+}
+
+.modal-clean-white {
+  background: #FFFFFF;
+  border: 1px solid #E5DFD5;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F2EB;
+}
+::-webkit-scrollbar-thumb {
+  background: #D8D0C3;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B5AA98;
+}
