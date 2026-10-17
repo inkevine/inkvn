@@ -137,7 +137,6 @@ export const projectsData = [
     categories: ["Featured", "UI/UX & Design", "AI & Data"],
     shortDescription: "An AI-powered communication assistant that studies human communication patterns and generates personalized text responses, with an intuitive interface designed to make AI-assisted communication simple and efficient.",
     image: "/projects/echomirror.png",
-    featuredRank: 5,
     problem: "AI text generators often feel robotic and lack intuitive interfaces tailored for natural communication flows.",
     solution: "Designed a human-centered UI/UX system and communication assistant that analyzes tone patterns to generate natural personalized responses.",
     features: [
@@ -365,6 +364,7 @@ export const projectsData = [
   shortDescription:
     "A software application designed to streamline billing operations through invoice generation, payment tracking, and customer account management.",
   image: "/projects/billing.jpeg",
+  featuredRank: 5,
   problem:
     "Manual billing processes can lead to invoicing errors, delayed payments, inaccurate billing records, and difficulties tracking outstanding balances.",
   solution:
