@@ -13,15 +13,15 @@ export const personalInfo = {
 
 export const projectCategories = [
   { id: "All", label: "All Projects" },
-  { id: "Featured", label: "⭐ Featured" },
-  { id: "AI & Data", label: "🤖 AI & Data" },
-  { id: "IoT & Embedded Systems", label: "⚡ IoT & Embedded" },
-  { id: "Mobile Apps", label: "📱 Mobile Apps" },
-  { id: "Frontend", label: "💻 Frontend" },
-  { id: "Backend", label: "⚙️ Backend" },
-  { id: "UI/UX & Design", label: "🎨 UI/UX & Design" },
-  { id: "Social Impact", label: "🌍 Social Impact" },
-  { id: "Fun / Experimental", label: "🚀 Fun & Experiments" }
+  { id: "Featured", label: "Featured" },
+  { id: "AI & Data", label: "AI & Data" },
+  { id: "IoT & Embedded Systems", label: "IoT & Embedded" },
+  { id: "Mobile Apps", label: "Mobile Apps" },
+  { id: "Frontend", label: "Frontend" },
+  { id: "Backend", label: "Backend" },
+  { id: "UI/UX & Design", label: "UI/UX & Design" },
+  { id: "Social Impact", label: "Social Impact" },
+  { id: "Fun / Experimental", label: "Fun & Experiments" }
 ];
 
 export const projectsData = [
