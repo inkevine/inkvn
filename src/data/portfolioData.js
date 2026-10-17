@@ -97,7 +97,7 @@ export const projectsData = [
     role: "Data Engineer & Full-Stack Developer",
     impact: "Transformed unstructured passenger text feedback into actionable comparative airline quality metrics.",
     links: {
-      liveDemo: "",
+      liveDemo: "https://jet-opinion.onrender.com/",
       github: "https://github.com/inkevine/Jetop_front",
       githubBackend: "https://github.com/inkevine/Jetop_back",
       figma: "",
@@ -187,7 +187,7 @@ export const projectsData = [
     subtitle: "Community Leadership & Resident Communication Platform",
     categories: ["Mobile Apps", "Social Impact"],
     shortDescription: "A community-focused application that connects residents with local leaders and one another, providing a central platform for communication, local news, and important announcements.",
-    image: "/projects/talkforward.png",
+    image: "/projects/masizi.png",
     problem: "Local neighborhood residents face fragmented channels for receiving official local news and contacting community leaders.",
     solution: "Developed a cross-platform mobile app unifying local announcements, resident leader messaging, and neighborhood noticeboards.",
     features: [
@@ -200,7 +200,7 @@ export const projectsData = [
     role: "Mobile App Engineer",
     impact: "Strengthened civic engagement and communication between residents and local leaders.",
     links: {
-      liveDemo: "",
+      liveDemo: "https://masiz-app.onrender.com/",
       github: "https://github.com/inkevine/masizi_app.git",
       figma: "",
       caseStudy: ""
@@ -237,7 +237,7 @@ export const projectsData = [
     subtitle: "Browser Verse Saver & Classification Extension",
     categories: ["Frontend", "Fun / Experimental"],
     shortDescription: "A Chrome Extension that lets you save, organize, and revisit your favorite verses instantly while browsing, with automatic classification into respective tags and categories.",
-    image: "/projects/vintapic.png",
+    image: "/projects/faithn.png",
     problem: "Browsing inspiration or study text online is easily lost without quick browser-level bookmarking and tagging.",
     solution: "Created a lightweight Chrome browser extension allowing one-click text highlighted saving, tag assignment, and searchable library management.",
     features: [
@@ -262,7 +262,7 @@ export const projectsData = [
     subtitle: "Facial Recognition & Behavior Tracking System",
     categories: ["AI & Data", "Backend"],
     shortDescription: "A security and behavior-tracking system built on top of facial recognition for automated identity verification, attendance logging, and behavior monitoring.",
-    image: "/projects/agrohaven.png",
+    image: "/projects/face_lock.jpeg",
     problem: "Security surveillance systems often lack automated behavioral analytics linked with facial identification.",
     solution: "Built a Python computer vision pipeline that performs facial recognition and overlays behavioral event tracking for security monitoring.",
     features: [
@@ -312,7 +312,7 @@ export const projectsData = [
     subtitle: "RESTful Parking Spot & Billing API",
     categories: ["Backend", "IoT & Embedded Systems"],
     shortDescription: "A RESTful API-driven parking system for managing parking spot availability, entry/exit timestamping, and automated tariff billing.",
-    image: "/projects/agrohaven.png",
+    image: "/projects/car_park.jpeg",
     problem: "Parking facilities need automated spot tracking and accurate duration-based tariff computation APIs.",
     solution: "Engineered a modular RESTful backend system tracking vehicle entries, spot allocation, and dynamic tariff calculation.",
     features: [
@@ -335,7 +335,7 @@ export const projectsData = [
     id: "payroll",
     title: "Payroll Management System",
     subtitle: "Automated Salary Processing & Payslip Platform",
-    categories: ["Backend", "Frontend"],
+    categories: ["Backend"],
     shortDescription: "A software application designed to automate employee salary processing, tax deductions, allowance calculations, and payslip generation.",
     image: "/projects/jetopinion.png",
     problem: "Manual payroll calculation is prone to calculation errors in tax brackets, deductions, and payslip processing.",
@@ -355,7 +355,37 @@ export const projectsData = [
       figma: "",
       caseStudy: ""
     }
+  },
+
+{
+  id: "billing",
+  title: "Billing Management System",
+  subtitle: "Automated Invoice Generation & Payment Tracking Platform",
+  categories: ["Backend"],
+  shortDescription:
+    "A software application designed to streamline billing operations through invoice generation, payment tracking, and customer account management.",
+  image: "/projects/billing.jpeg",
+  problem:
+    "Manual billing processes can lead to invoicing errors, delayed payments, inaccurate billing records, and difficulties tracking outstanding balances.",
+  solution:
+    "Developed a billing management system to organize customer billing records, generate invoices, track payment statuses, and manage outstanding balances.",
+  features: [
+    "Automated invoice generation and billing calculations",
+    "Customer billing records management",
+    "Payment tracking and status updates",
+    "Outstanding balance and payment history tracking"
+  ],
+  technologies: ["Java", "Spring Boot", "PostgreSQL", "React"],
+  role: "Software Engineer",
+  impact:
+    "Improved billing record organization and simplified invoice management and payment tracking.",
+  links: {
+    liveDemo: "",
+    github: "https://github.com/inkevine/java_neeubs",
+    figma: "",
+    caseStudy: ""
   }
+}
 ];
 
 export const focusAreas = [
