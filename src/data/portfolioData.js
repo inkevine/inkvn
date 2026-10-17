@@ -237,7 +237,7 @@ export const projectsData = [
     subtitle: "Browser Verse Saver & Classification Extension",
     categories: ["Frontend", "Fun / Experimental"],
     shortDescription: "A Chrome Extension that lets you save, organize, and revisit your favorite verses instantly while browsing, with automatic classification into respective tags and categories.",
-    image: "/projects/faithn.png",
+    image: "/projects/faith_n.png",
     problem: "Browsing inspiration or study text online is easily lost without quick browser-level bookmarking and tagging.",
     solution: "Created a lightweight Chrome browser extension allowing one-click text highlighted saving, tag assignment, and searchable library management.",
     features: [
@@ -337,7 +337,7 @@ export const projectsData = [
     subtitle: "Automated Salary Processing & Payslip Platform",
     categories: ["Backend"],
     shortDescription: "A software application designed to automate employee salary processing, tax deductions, allowance calculations, and payslip generation.",
-    image: "/projects/jetopinion.png",
+    image: "/projects/payroll.jpeg",
     problem: "Manual payroll calculation is prone to calculation errors in tax brackets, deductions, and payslip processing.",
     solution: "Built a full-stack payroll system that automates gross-to-net salary math, tax withholdings, and downloadable PDF payslips.",
     features: [
