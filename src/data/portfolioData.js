@@ -131,6 +131,36 @@ export const projectsData = [
     }
   },
   {
+  id: "billing",
+  title: "Utility Billing Management System",
+  subtitle: "Automated Invoice Generation & Payment Tracking Platform",
+  categories: ["Backend"],
+  shortDescription:
+    "A software application designed to streamline billing operations through invoice generation, payment tracking, and customer account management.",
+  image: "/projects/billing.jpeg",
+  featuredRank: 5,
+  problem:
+    "Manual billing processes can lead to invoicing errors, delayed payments, inaccurate billing records, and difficulties tracking outstanding balances.",
+  solution:
+    "Developed a billing management system to organize customer billing records, generate invoices, track payment statuses, and manage outstanding balances.",
+  features: [
+    "Automated invoice generation and billing calculations",
+    "Customer billing records management",
+    "Payment tracking and status updates",
+    "Outstanding balance and payment history tracking"
+  ],
+  technologies: ["Java", "Spring Boot", "PostgreSQL", "React"],
+  role: "Software Engineer",
+  impact:
+    "Improved billing record organization and simplified invoice management and payment tracking.",
+  links: {
+    liveDemo: "",
+    github: "https://github.com/inkevine/java_neeubs",
+    figma: "",
+    caseStudy: ""
+  }
+},
+  {
     id: "echomirror",
     title: "EchoMirror",
     subtitle: "AI Communication Assistant & Design System",
@@ -286,7 +316,7 @@ export const projectsData = [
     subtitle: "Hospitality Reservation & Operations Platform",
     categories: ["Backend"],
     shortDescription: "A full-stack hotel management system for handling room reservations, guest billing, housekeeping status, and staff administration.",
-    image: "/projects/jetopinion.png",
+    image: "/projects/hotelms.jpeg",
     problem: "Hotel operators require a centralized system to coordinate room bookings, guest billing, and daily staff tasks.",
     solution: "Developed an end-to-end hotel operations software managing room availability calendars, invoice billing, and staff task assignment.",
     features: [
@@ -354,38 +384,7 @@ export const projectsData = [
       figma: "",
       caseStudy: ""
     }
-  },
-
-{
-  id: "billing",
-  title: "Utility Billing Management System",
-  subtitle: "Automated Invoice Generation & Payment Tracking Platform",
-  categories: ["Backend"],
-  shortDescription:
-    "A software application designed to streamline billing operations through invoice generation, payment tracking, and customer account management.",
-  image: "/projects/billing.jpeg",
-  featuredRank: 5,
-  problem:
-    "Manual billing processes can lead to invoicing errors, delayed payments, inaccurate billing records, and difficulties tracking outstanding balances.",
-  solution:
-    "Developed a billing management system to organize customer billing records, generate invoices, track payment statuses, and manage outstanding balances.",
-  features: [
-    "Automated invoice generation and billing calculations",
-    "Customer billing records management",
-    "Payment tracking and status updates",
-    "Outstanding balance and payment history tracking"
-  ],
-  technologies: ["Java", "Spring Boot", "PostgreSQL", "React"],
-  role: "Software Engineer",
-  impact:
-    "Improved billing record organization and simplified invoice management and payment tracking.",
-  links: {
-    liveDemo: "",
-    github: "https://github.com/inkevine/java_neeubs",
-    figma: "",
-    caseStudy: ""
   }
-}
 ];
 
 export const focusAreas = [
