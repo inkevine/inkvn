@@ -285,7 +285,7 @@ export const projectsData = [
     id: "hotelms",
     title: "Hotel Management System",
     subtitle: "Hospitality Reservation & Operations Platform",
-    categories: ["Backend", "Frontend"],
+    categories: ["Backend"],
     shortDescription: "A full-stack hotel management system for handling room reservations, guest billing, housekeeping status, and staff administration.",
     image: "/projects/jetopinion.png",
     problem: "Hotel operators require a centralized system to coordinate room bookings, guest billing, and daily staff tasks.",
@@ -310,7 +310,7 @@ export const projectsData = [
     id: "carparking",
     title: "Car Parking Management System",
     subtitle: "RESTful Parking Spot & Billing API",
-    categories: ["Backend", "IoT & Embedded Systems"],
+    categories: ["Backend", "Frontend"],
     shortDescription: "A RESTful API-driven parking system for managing parking spot availability, entry/exit timestamping, and automated tariff billing.",
     image: "/projects/car_park.jpeg",
     problem: "Parking facilities need automated spot tracking and accurate duration-based tariff computation APIs.",
@@ -359,7 +359,7 @@ export const projectsData = [
 
 {
   id: "billing",
-  title: "Billing Management System",
+  title: "Utility Billing Management System",
   subtitle: "Automated Invoice Generation & Payment Tracking Platform",
   categories: ["Backend"],
   shortDescription:
