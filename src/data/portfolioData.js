@@ -240,7 +240,7 @@ export const projectsData = [
     subtitle: "Patient Portal & Staff Access Platform",
     categories: ["Frontend", "Backend","Featured"],
     shortDescription: "A clinic website and staff access portal where patients can submit inquiries and requests, while staff can securely manage messages, bookings, and appointments.",
-    image: "/projects/jetopinion.png",
+    image: "/projects/rdc.png",
     featuredRank: 4,
     problem: "Healthcare clinics need a streamlined digital portal for patient appointment requests and secure internal staff booking management.",
     solution: "Engineered a production clinic platform featuring a public patient inquiry interface and an authenticated staff portal for scheduling and patient messages.",
