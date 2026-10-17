@@ -187,7 +187,7 @@ export default function ProjectModal({ project, onClose }) {
                   className="px-4 py-2.5 rounded-xl bg-white hover:bg-[#F3EDE0] text-[#1B4332] text-xs font-bold border border-[#E5DFD5] transition-all flex items-center gap-2 shadow-sm"
                 >
                   <GithubIcon className="w-4 h-4 text-[#1B4332]" />
-                  <span>GitHub Frontend</span>
+                  <span>GitHub</span>
                 </a>
               )}
 
@@ -199,7 +199,7 @@ export default function ProjectModal({ project, onClose }) {
                   className="px-4 py-2.5 rounded-xl bg-white hover:bg-[#F3EDE0] text-[#1B4332] text-xs font-bold border border-[#E5DFD5] transition-all flex items-center gap-2 shadow-sm"
                 >
                   <GithubIcon className="w-4 h-4 text-[#1B4332]" />
-                  <span>GitHub Backend</span>
+                  <span>GitHub</span>
                 </a>
               )}
 
