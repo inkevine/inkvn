@@ -316,7 +316,7 @@ export const projectsData = [
     subtitle: "Hospitality Reservation & Operations Platform",
     categories: ["Backend"],
     shortDescription: "A full-stack hotel management system for handling room reservations, guest billing, housekeeping status, and staff administration.",
-    image: "/projects/hotelms.jpeg",
+    image: "/projects/hotel.jpeg",
     problem: "Hotel operators require a centralized system to coordinate room bookings, guest billing, and daily staff tasks.",
     solution: "Developed an end-to-end hotel operations software managing room availability calendars, invoice billing, and staff task assignment.",
     features: [
