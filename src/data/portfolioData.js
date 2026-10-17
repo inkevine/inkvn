@@ -55,10 +55,9 @@ export const projectsData = [
     id: "chromify",
     title: "Chromify",
     subtitle: "AI Color Assistance & Vision Coach App",
-    categories: ["Featured", "AI & Data", "Mobile Apps"],
+    categories: ["AI & Data", "Mobile Apps"],
     shortDescription: "An AI-powered mobile app that helps people with color vision deficiency understand and interact with colors through AI color detection with voice feedback, colorblind simulation, and an AI Color Vision Coach.",
     image: "/projects/chromify.png",
-    featuredRank: 2,
     problem: "Individuals with color vision deficiency struggle to identify clothing hues, art palettes, and everyday color-coded information.",
     solution: "Engineered an AI mobile app combining real-time camera color detection, auditory voice feedback, colorblind simulation modes, and an interactive AI color coach.",
     features: [
@@ -111,7 +110,7 @@ export const projectsData = [
     categories: ["Featured", "Social Impact", "Frontend"],
     shortDescription: "A youth-focused platform where young people can anonymously share issues they care about, identify the most frequently raised concerns, and turn them into focused awareness and advocacy campaigns.",
     image: "/projects/talkforward.png",
-    featuredRank: 4,
+    featuredRank: 5,
     problem: "Youth lack safe, anonymous platforms to express systemic community challenges and organize collective advocacy.",
     solution: "Created a privacy-first web advocacy application that encrypts survey submissions, aggregates top community topics, and equips youth with campaign toolkits.",
     features: [
@@ -134,11 +133,11 @@ export const projectsData = [
   id: "billing",
   title: "Utility Billing Management System",
   subtitle: "Automated Invoice Generation & Payment Tracking Platform",
-  categories: ["Backend"],
+  categories: ["Backend","Featured"],
   shortDescription:
     "A software application designed to streamline billing operations through invoice generation, payment tracking, and customer account management.",
   image: "/projects/billing.jpeg",
-  featuredRank: 5,
+  featuredRank: 2,
   problem:
     "Manual billing processes can lead to invoicing errors, delayed payments, inaccurate billing records, and difficulties tracking outstanding balances.",
   solution:
@@ -239,9 +238,10 @@ export const projectsData = [
     id: "royalclinic",
     title: "Healthcare Clinic Management Platform",
     subtitle: "Patient Portal & Staff Access Platform",
-    categories: ["Frontend", "Backend"],
+    categories: ["Frontend", "Backend","Featured"],
     shortDescription: "A clinic website and staff access portal where patients can submit inquiries and requests, while staff can securely manage messages, bookings, and appointments.",
     image: "/projects/jetopinion.png",
+    featuredRank: 4,
     problem: "Healthcare clinics need a streamlined digital portal for patient appointment requests and secure internal staff booking management.",
     solution: "Engineered a production clinic platform featuring a public patient inquiry interface and an authenticated staff portal for scheduling and patient messages.",
     features: [
