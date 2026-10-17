@@ -1,93 +1,30 @@
-# Ihimbazwe Niyikora Kevine — Portfolio Website
+# Hi, I'm IHIMBAZWE NIYIKORA Kevine
 
-A modern, high-end, clean, interactive personal portfolio website for **Ihimbazwe Niyikora Kevine** — Software Engineer, AI & Data Enthusiast, Builder, and Designer.
+I'm a **Software Engineering graduate from Rwanda Coding Academy** 🇷🇼 passionate about building technology that solves real-world problems.
 
-![Portfolio Visual](public/projects/agrohaven.png)
+I work across software engineering, AI and data analytics, mobile app development, IoT, and UI/UX design. I enjoy turning ideas into functional products, experimenting with new technologies, and creating solutions that combine technical innovation with real-world impact.
 
-## 🚀 Features
+### 🛠️ Technologies I Work With
 
-- **Dynamic Hero Section**: Headline, short introduction, CTA buttons, and interactive floating technology cards.
-- **Concise About Section**: Interactive visual focus cards across practical tech, AI & data, mobile, IoT aeroponics, UI/UX design, and social impact.
-- **Flagship Featured Section**: Standout spotlight cards for top flagship projects (AgroHaven, JetOpinion, TalkForward, EchoMirror).
-- **Multi-Category Project Showcase**: Filterable gallery across 9 domains with multi-category mapping per project.
-- **Interactive Case Study Modal**: Detailed popup displaying problem, solution, key features list, tech stack, role, impact, and editable link placeholders.
-- **Categorized Tech Stack**: Grouped interactive technology cards including Cyberium cybersecurity training certificate highlights.
-- **Visual Journey Timeline**: Track education, software innovations, certifications, and leadership milestones.
-- **Contact & Feedback**: Form with instant feedback, direct email copy action, and social profile links.
-- **Vercel Ready**: Built with Vite + React + Tailwind CSS v4 for zero-config instant Vercel deployment.
+**Languages:** Python, Java, JavaScript, TypeScript, C++, SQL
 
----
+**Web Development:** React, Next.js, Node.js, Express, Spring Boot
 
-## 📁 How to Customize Projects & Information
+**Mobile Development:** React Native, Expo
 
-All website content is driven by a single modular JavaScript data file:
-```
-src/data/portfolioData.js
-```
+**AI & Data:** Pandas, Scikit-learn, NLP, Computer Vision
 
-### 1. Update Personal Links & Contact
-Open `src/data/portfolioData.js` and edit the `personalInfo` object:
-```javascript
-export const personalInfo = {
-  name: "Ihimbazwe Niyikora Kevine",
-  email: "your-real-email@domain.com",
-  github: "https://github.com/your-github",
-  linkedin: "https://linkedin.com/in/your-linkedin",
-  figma: "https://figma.com/@your-figma",
-  // ...
-};
-```
+**Databases:** PostgreSQL, MySQL, MongoDB, Firebase
 
-### 2. Add or Edit Projects & URLs
-Each project inside `projectsData` contains simple editable fields for URLs:
-```javascript
-{
-  id: "jetopinion",
-  title: "JetOpinion",
-  links: {
-    liveDemo: "https://your-live-demo-link.vercel.app",
-    github: "https://github.com/KevineNiyikora/JetOpinion",
-    figma: "https://figma.com/file/your-figma-link",
-    caseStudy: "https://medium.com/@your-case-study"
-  }
-}
-```
+**Design & Hardware:** Figma, Arduino, NodeMCU, IoT
 
----
+**Security Testing**
 
-## 🛠️ Local Development Commands
+### &#x20; Let's Connect!
 
-### Install Dependencies
-```bash
-npm install
-```
+🌐 **Portfolio:** [inkvn.vercel.app](https://inkvn.vercel.app/)
+💼 **LinkedIn:** [Ihimbazwe Niyikora Kevine](https://www.linkedin.com/in/ihimbazwe-niyikora-kevine/)
+📧 **Email:** [niyikorakevine@gmail.com](mailto\:niyikorakevine@gmail.com)
+💻 **GitHub:** [@inkevine](https://github.com/inkevine)
 
-### Run Dev Server
-```bash
-npm run dev
-```
-Open `http://localhost:5173` in your browser.
-
-### Build Production Bundle
-```bash
-npm run build
-```
-
----
-
-## ⚡ Deployment to Vercel
-
-This project is fully optimized for Vercel deployment.
-
-### Option A: Deploy via GitHub (Recommended)
-1. Push this codebase to a GitHub repository.
-2. Go to [Vercel Dashboard](https://vercel.com/new).
-3. Import your GitHub repository.
-4. Framework Preset will automatically detect **Vite**.
-5. Click **Deploy**.
-
-### Option B: Deploy via Vercel CLI
-```bash
-npm install -g vercel
-vercel
-```
+*Building with curiosity, designing with purpose, and learning with every project.* ✨
